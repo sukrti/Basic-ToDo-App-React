@@ -1,0 +1,88 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-div {
+  width: 100%;
+  height: 100vh;
+  background-color: #d4e5ef;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.center-div {
+  margin-top:62px;
+  border-radius: 26px;
+  width: 25%;
+  height: 80vh;
+  background-color: #f6f6f1;
+  color: brown;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  border: outset;
+}
+input {
+  text-align: center;
+    height: 40px;
+    border: none;
+    top: 10px;
+    background: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    width: 60%;
+    border: 0;
+    border-radius: 26px;
+    box-shadow: 0 0 15px 4px rgb(0 0 0 / 6%);
+}
+
+button {
+  align-items: center;
+  border-radius: 10px;
+  height: 44px;
+  width: 34px;
+  border-color: transparent;
+  background-color: orangered;
+  color: white;
+  font-size: 32px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+button:hover
+{
+ background-color: yellowgreen;
+}
+ol{
+  margin-top: 30px;
+}
+.ToDoStyle {
+  display: flex;
+  align-items: baseline;
+  padding: 6px;
+}
+.fa-regular fa-circle-xmark:hover
+{
+  background-color: red;
+}
+ol li {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: tomato;
+  text-transform: capitalize;
+}
+h1 {
+  background: #9d9ae2;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
